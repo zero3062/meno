@@ -1,0 +1,43 @@
+@import 'styles/utils.scss';
+
+.item-back {
+  background-color: $oc-gray-0;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  left:50%;
+  transform: translateX(-50%);
+  margin: 10px 0px;
+
+
+  .item-contents {
+    width: 420px;
+    height: 200px;
+
+    textarea {
+      resize: none;
+      width: 420px;
+      height: 180px;
+      font-size: 20px;
+      padding: 20px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .button {
+      font-size: 20px;
+      padding: 20px;
+      width: 420px;
+      height: 10px;
+      margin-left: 20px;
+
+      .delete-button {
+        float: right;
+        cursor: pointer;
+      }
+    }
+  }
+}
